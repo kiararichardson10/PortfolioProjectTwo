@@ -1,0 +1,82 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+    /*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+  
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+  
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+  
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.jumbotron {
+    background-image: linear-gradient(to right, #f3ac69, #d37b34, #60106B);
+    margin: 0;
+    padding: 30px;
+}
+
+body {
+    background-color: orange;
+    opacity: 0.85;
+}
+header h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: blanchedalmond;
+}
+main h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+}
+main > p {
+    font-family: 'Permanent Marker', cursive;
+    font-size: x-large;
+    padding-top: 2rem;
+    color: black;
+}
+img {
+  align-self: center;
+  max-width:100%;
+  height:auto
+}
+
