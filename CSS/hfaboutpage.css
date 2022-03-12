@@ -46,7 +46,7 @@
 }
   
 .nav-masthead .active {
-    color: #fff;
+    color: rgb(255, 196, 0);
     border-bottom-color: #fff;
 }
 
@@ -56,10 +56,15 @@
     padding: 30px;
 }
 
+.breadcrumb-item {
+    --bs-breadcrumb-divider: '';
+}
+
 body {
     background-color: orange;
     opacity: 0.85;
 }
+
 header h2 {
     font-family: 'Permanent Marker', cursive;
     color: blanchedalmond;
@@ -69,11 +74,12 @@ main h1 {
     color: black;
 }
 main > p {
-    font-family: 'Permanent Marker', cursive;
     font-size: x-large;
     padding-top: 2rem;
     color: black;
+    font-family: 'Permanent Marker', cursive;
 }
+
 img {
   align-self: center;
   max-width:100%;

@@ -63,7 +63,7 @@ body {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgba(255, 245, 255, .25);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -71,7 +71,7 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
+  color: rgb(255, 196, 0);
   border-bottom-color: #fff;
 }
 
@@ -85,6 +85,11 @@ header h2 {
   font-family: 'Permanent Marker', cursive;
   color: blanchedalmond;
 }
+
+.breadcrumb > a {
+  --bs-breadcrumb-divider: '';
+}
+
 
 main h1 {
   font-family: 'Permanent Marker', cursive;

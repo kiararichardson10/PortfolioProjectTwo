@@ -46,7 +46,7 @@
 }
   
 .nav-masthead .active {
-    color: #fff;
+    color: rgb(255, 196, 0);
     border-bottom-color: #fff;
 }
 
@@ -54,6 +54,10 @@
     background-image: linear-gradient(to right, #f3ac69, #d37b34, #60106B);
     margin: 0;
     padding: 30px;
+}
+
+.breadcrumb-item {
+    --bs-breadcrumb-divider: '';
 }
 
 body {
