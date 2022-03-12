@@ -1,3 +1,4 @@
-$('#coverbutton').click(){
-    $oginForm.show();
-})
+$(function() {
+    $("#ageCheckModal").modal("show")
+});
+
