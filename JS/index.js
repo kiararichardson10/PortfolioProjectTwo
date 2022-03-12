@@ -1,0 +1,3 @@
+$('#coverbutton').click(){
+    $oginForm.show();
+})
