@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "sass": "^1.49.9"
+  },
+  "scripts": {
+    "scss": "sass css:css"
+  }
+}
