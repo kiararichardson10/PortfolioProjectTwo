@@ -70,12 +70,18 @@ header h2 {
     color: blanchedalmond;
 }
 
-main h4 {
+main h1 {
     font-family: 'Permanent Marker', cursive;
     color: blanchedalmond;
 }
 
+main h4 {
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+}
+
 main p {
     font-family: 'Permanent Marker', cursive;
-    color: blanchedalmond;
+    color: black;
+    font-size: larger;
 }
