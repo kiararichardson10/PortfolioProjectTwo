@@ -85,3 +85,7 @@ main p {
     color: black;
     font-size: larger;
 }
+
+#mailingListBtn {
+    font-family: 'Permanent Marker', cursive;
+}
