@@ -102,11 +102,12 @@ main h1 {
 #ageCheckModal .modal-header {
   background-color: orange;
   color: black;
+  font-size: larger;
 }
 
 #ageCheckModal .modal-body {
   background-color: blanchedalmond;
-  font-weight: bolder;
+  font-size: larger;
 }
 
 #ageCheckModal .modal-footer {

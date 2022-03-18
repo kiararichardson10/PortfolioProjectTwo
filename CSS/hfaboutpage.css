@@ -71,11 +71,10 @@ header h2 {
 }
 main h1 {
     font-family: 'Permanent Marker', cursive;
-    color: black;
+    color: brown;
 }
 main > p {
     font-size: larger;
-    padding-top: 1rem;
     color: black;
 }
 

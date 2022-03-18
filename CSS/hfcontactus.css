@@ -72,7 +72,10 @@ header h2 {
 
 main h1 {
     font-family: 'Permanent Marker', cursive;
-    color: blanchedalmond;
+    color: brown;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    
 }
 
 main h4 {
@@ -89,3 +92,4 @@ main p {
 #mailingListBtn {
     font-family: 'Permanent Marker', cursive;
 }
+
